@@ -1,0 +1,30 @@
+The spring melt has taken out LegoLand's only ferry. The Lego people are starving and have asked the robotics club to build them a new ferry. There are building plans for the old ferry*, but the software is lost. The club must generate the software.
+
+
+Name the new ferry:_________
+
+
+
+
+
+Points
+Gracious Professionalism (up to 3 points for working well with team mates, other teams and adults)
+Crossing the river with the ferry safely (3 points)
+Bringing ferry back safely (3 points)
+Precision for not running into things or causing passenger to roll or fall (3 points)
+Safety interlock prevents the program running same direction twice in a row. (3 points) **
+Creativity in dressing up the ferry port and ferry and sounds for the ferry leaving and arriving (up to 2 points)
+Creativity in naming the ferry (up to 3 points)
+Adults can help kids, but they can't do the work.
+
+
+*the River Ferry building plans are part of the Happy Traveler Unit.
+
+**Hint the interlock looks something like
+
+if ferryPosition == 'out':
+  bring ferry back
+  ferryPosition = 'in'
+else:
+  send ferry across
+  ferryPosition = 'out'
